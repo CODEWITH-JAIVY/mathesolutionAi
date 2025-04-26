@@ -165,7 +165,7 @@ export default function Home() {
               <CardTitle>Solution:</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="rounded-md p-4 bg-blue-50 text-black shadow-md">
+              <div className="rounded-md p-4 bg-blue-50 text-black shadow-md overflow-auto">
                 <pre>{solution}</pre>
               </div>
             </CardContent>
